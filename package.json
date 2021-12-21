@@ -1,0 +1,30 @@
+{
+  "name": "gulp-webp-css-fixed",
+  "version": "1.0.0",
+  "description": "gulp-webp-css with iteration through rules with comments fix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetzeny/gulp-webp-css-fixed.git"
+  },
+  "keywords": [
+    "gulp-webp-css",
+    "comments",
+    "undefined",
+    "indexOf"
+  ],
+  "author": "grindingeorge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jetzeny/gulp-webp-css-fixed/issues"
+  },
+  "homepage": "https://github.com/jetzeny/gulp-webp-css-fixed#readme",
+  "dependencies": {
+    "css": "^2.2.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
