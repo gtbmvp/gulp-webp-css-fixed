@@ -52,7 +52,8 @@ module.exports = function (extensions) {
               if (
                 declaration.property.indexOf("background") + 1 &&
                 declaration.value.indexOf("url") + 1 &&
-                !(declaration.value.indexOf(".webp") + 1)
+                !(declaration.value.indexOf(".webp") + 1) &&
+                !(declaration.value.indexOf(".svg") + 1)
               ) {
                 var newValue = declaration.value;
                 // Заменяем на webp

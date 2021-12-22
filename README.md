@@ -17,5 +17,5 @@ Original repository of gulp-webp-css seems to be deleted, so i have to make my o
 ---
 
 ### Plan2do
-- exclude svg ext;
+
 - rule comments should not move to next line
