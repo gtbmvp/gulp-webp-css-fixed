@@ -1,6 +1,6 @@
 {
   "name": "gulp-webp-css-fixed",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "gulp-webp-css with iteration through rules with comments fix",
   "main": "index.js",
   "scripts": {

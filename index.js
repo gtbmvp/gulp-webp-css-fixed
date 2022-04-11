@@ -4,9 +4,7 @@ const through = require("through2");
 var CSSParser = require("css");
 
 var supportsRender = function (rulesArr) {
-  return (
-    "\n@supports (-webkit-appearance:none){\n" + rulesArr.join("\n") + "\n}\n"
-  );
+  return "\n@supports (appearance:none){\n" + rulesArr.join("\n") + "\n}\n";
 };
 module.exports = function (extensions) {
   var extensions = extensions || [".jpg", ".png", ".jpeg", "JPG"];
